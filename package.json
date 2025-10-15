@@ -1,0 +1,19 @@
+{
+  "name": "uninspiring-quotes",
+  "version": "0.0.0",
+  "description": "The dullest quotes on the web.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "quotes",
+    "tutorial"
+  ],
+  "author": "Me",
+  "license": "DWTFYWWI License",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "type": "module"
+}
