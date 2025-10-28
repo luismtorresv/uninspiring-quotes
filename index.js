@@ -1,4 +1,5 @@
 import express from "express";
+import os from "os";
 
 const app = express();
 const port = 80;
@@ -14,7 +15,7 @@ const phrases = [
 
 app.get("/", (req, res) => {
   const number = Math.floor(Math.random() * phrases.length);
-  res.send(phrases[number]);
+  res.send(phrases[number] + " - container_id: " + os.hostname());
 });
 
 app.listen(port, () => {
